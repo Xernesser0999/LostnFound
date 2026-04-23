@@ -2,46 +2,6 @@
 #include "Global.h"
 
 EngineLevel::EngineLevel(sf::RenderWindow& window, Global& var_) : glob(var_) {
-   
-    loader = new LevelLoader();
-    loader->load (
-        "level/TestLevel/map.txt",  
-        "level/TestLevel/map.png",  
-        window,
-        60,                         
-        40                        
-    );
-
-   
-    cam = new Camera(1920, 1080, 50*60, 50*40, 0.005);
-    Machine = new StateMachine(new DummyState());
-   
-    player = new PlayerEX (
-        window,
-        1,
-        200,
-        1300,
-        50,
-        50,
-        1425,
-        600,
-        "sprite/Debug/PlaceHolder.png",
-        1,
-        *Machine
-    );
-    Machine->currentState = new IdleStateRight(*player);
-
-    parralax = new BG_parralax_Full();
-    parralax->addlayer("sprite/Background/Debugmap.png", 0.5);
-
-   
-    trig = new Trigger(
-        500,
-        800,
-        150,
-        50,
-        true
-    );
 
     cam->view->setCenter(player->pos);
 
