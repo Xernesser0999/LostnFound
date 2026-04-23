@@ -7,6 +7,7 @@
 #include "PlayerEX.h"
 #include "Trigger.h"
 #include "BG_parralax_Full.h"
+#include "Colis.h"
 
 #include "DebugDisplay.h"
 
@@ -32,6 +33,12 @@ public:
 	Camera* cam;
 	std::vector<Collider*> Colliderlist;
 	BG_parralax_Full* parralax;
+	std::vector<Colis*> listeColis;
+
+	bool wasMousePressed = false;
 
 	Global& glob;
+
+private:
+	sf::RenderWindow& windowRef;
 };

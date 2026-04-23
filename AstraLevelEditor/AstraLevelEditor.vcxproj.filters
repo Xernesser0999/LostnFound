@@ -54,6 +54,7 @@
       <Filter>ASTRAENGINE\.CPP\Actor</Filter>
     </ClCompile>
     <ClCompile Include="DebugDisplay.cpp" />
+    <ClCompile Include="Colis.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BG_parralax_Full.h">
@@ -108,6 +109,7 @@
       <Filter>ASTRAENGINE\.H\Actor</Filter>
     </ClInclude>
     <ClInclude Include="DebugDisplay.h" />
+    <ClInclude Include="Colis.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ASTRAENGINE">
