@@ -147,11 +147,13 @@
     <ClCompile Include="DebugDisplay.cpp" />
     <ClCompile Include="DisplayEntity.cpp" />
     <ClCompile Include="EngineLevel.cpp" />
+    <ClCompile Include="Fiche.cpp" />
     <ClCompile Include="Global.cpp" />
     <ClCompile Include="GUI_button.cpp" />
     <ClCompile Include="KeyStruct.cpp" />
     <ClCompile Include="LevelLoader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Pawn.cpp" />
     <ClCompile Include="PlayerEX.cpp" />
     <ClCompile Include="Scene.cpp" />
@@ -169,10 +171,12 @@
     <ClInclude Include="DebugDisplay.h" />
     <ClInclude Include="DisplayEntity.h" />
     <ClInclude Include="EngineLevel.h" />
+    <ClInclude Include="Fiche.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="GUI_button.h" />
     <ClInclude Include="KeyStruct.h" />
     <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="Manager.h" />
     <ClInclude Include="Pawn.h" />
     <ClInclude Include="PlayerEX.h" />
     <ClInclude Include="Scene.h" />
