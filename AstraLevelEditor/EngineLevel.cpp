@@ -8,7 +8,7 @@ EngineLevel::EngineLevel(sf::RenderWindow& window, Global& var_)
     loader = new LevelLoader();
     loader->load (
         "level/TestLevel/map.txt",  
-        "level/TestLevel/map.png",  
+        "level/TestLevel/bg.jpg",  
         window,
         60,                         
         40                        
@@ -21,8 +21,8 @@ EngineLevel::EngineLevel(sf::RenderWindow& window, Global& var_)
     player = new PlayerEX (
         window,
         1,
-        200,
-        1300,
+        1500,
+        900,
         50,
         50,
         1425,
@@ -49,7 +49,7 @@ EngineLevel::EngineLevel(sf::RenderWindow& window, Global& var_)
 
     fps = new DebugDisplay();
 
-    listeColis.push_back(new Colis(300.f, 1700.f, 200.f, 200.f));
+    listeColis.push_back(new Colis(1300.f, 900.f, 500.f, 500.f));
 }
 
 EngineLevel::~EngineLevel() {
