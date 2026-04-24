@@ -1,4 +1,6 @@
-﻿  EngineLevel.cpp
+﻿  DebugDisplay.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\DebugDisplay.cpp(5,19): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  EngineLevel.cpp
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
   (compiler le fichier source 'EngineLevel.cpp')
       C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
@@ -9,5 +11,40 @@ C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7): w
       C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7):
       voir la déclaration de 'Pawn'
   
-C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\EngineLevel.cpp(18,48): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Fiche.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Fiche.cpp(12,19): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  main.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\StateMachine.h(7,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'main.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'main.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'main.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+  Manager.cpp
+  SceneManager.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\StateMachine.h(7,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'SceneManager.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'SceneManager.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'SceneManager.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+  Génération de code en cours...
   AstraLevelEditor.vcxproj -> C:\Users\yducrocq\Documents\GitHub\LostnFound\x64\Debug\AstraLevelEditor.exe
