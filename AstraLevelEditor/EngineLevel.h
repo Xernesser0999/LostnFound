@@ -7,6 +7,8 @@
 #include "PlayerEX.h"
 #include "Trigger.h"
 #include "BG_parralax_Full.h"
+#include "Fiche.h"
+#include "Manager.h"
 
 #include "DebugDisplay.h"
 
@@ -24,14 +26,9 @@ public:
 
 public:
 
+	Manager* manage;
+	Fiche* test;
 	DebugDisplay* fps;
-	StateMachine* Machine;
-	Trigger* trig;
-	LevelLoader* loader;
-	PlayerEX* player;
-	Camera* cam;
-	std::vector<Collider*> Colliderlist;
-	BG_parralax_Full* parralax;
 
 	Global& glob;
 };
