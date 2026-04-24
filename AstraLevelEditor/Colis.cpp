@@ -24,22 +24,33 @@ void Colis::Open(std::string path)
 	else
 	{
 		rectangle.setTexture(&texture);
+		isOpen = true;
 	}
 }
 
-bool Colis::isClicked(sf::Vector2i mousePos, sf::Mouse::Button button)
+void Colis::addButton(std::string nom, std::string path)
 {
-	sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
-
-	if (button == sf::Mouse::Button::Left && rectangle.getGlobalBounds().contains(mousePosF))
-	{
-		return true;
-	}
-	return false;
+	float offsetX = (bouton.size() * 120.f);
+	sf::Vector2f pos = rectangle.getPosition() + sf::Vector2f(offsetX, 520.f);
+	bouton.push_back(new ChoixPerso(nom, path, { 100.f, 100.f }, pos));
 }
 
 	
 void Colis::draw(sf::RenderWindow& window) 
 {
 	window.draw(rectangle);
+	if (isOpen) 
+	{
+		for (auto* b : bouton) b->draw(window);
+	}
+}
+
+std::string Colis::checkButtonClick(sf::Vector2f mousePos)
+{
+	if (!isOpen) return "";
+	for (auto* b : bouton)
+	{
+		if (b->isClicked(mousePos)) return b->getNom();
+	}
+	return "";
 }

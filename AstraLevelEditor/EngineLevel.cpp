@@ -23,7 +23,7 @@ EngineLevel::~EngineLevel() {
     delete fps;
     fps = nullptr;
 
-    for (auto* c : listeColis) { delete c; }
+    for (auto* colis : listeColis) { delete colis; }
     listeColis.clear();
 }
 
@@ -36,9 +36,18 @@ void EngineLevel::update(const bool* keys, float dt) {
         sf::Vector2f worldPos = windowRef.mapPixelToCoords(mousePos);
 
         for (auto* colis : listeColis) {
-            if (colis->rectangle.getGlobalBounds().contains(worldPos)) {
-                std::cout << "Livreur Chronopost !" << std::endl;
+            if (colis->getIsOpen())
+            {
+                std::string persoChoisi = colis->checkButtonClick(worldPos);
+                if (persoChoisi != "")
+                {
+                    std::cout << "Perso choisi : " << persoChoisi << "\n";
+                }
+            }
+            else if (colis->rectangle.getGlobalBounds().contains(worldPos))
+            {
                 colis->Open("sprite/Debug/Colis Ouvert.png");
+                colis->addButton("Jaouen", "sprite/Debug/Jaouen.png");
             }
         }
     }

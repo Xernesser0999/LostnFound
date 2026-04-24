@@ -1,6 +1,104 @@
-﻿  Fiche.cpp
+﻿  BGstatic.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\BGstatic.cpp(9,25): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  BG_parralax_Full.cpp
+  Camera.cpp
+  ChoixPerso.cpp
+  Colis.cpp
+  Collider.cpp
+  DebugDisplay.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\DebugDisplay.cpp(5,19): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  DisplayEntity.cpp
+  EngineLevel.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'EngineLevel.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'EngineLevel.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7):
+      voir la déclaration de 'Pawn'
+  
+  Fiche.cpp
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Fiche.cpp(12,19): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  Global.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\StateMachine.h(7,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'Global.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'Global.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+  GUI_button.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\GUI_button.cpp(7,17): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\GUI_button.cpp(8,18): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  KeyStruct.cpp
+  LevelLoader.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(23,82): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(23,76): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(14,9): warning C4101: 'id' : variable locale non référencée
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(95,87): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(95,81): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(124,82): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(124,76): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp(115,9): warning C4101: 'id' : variable locale non référencée
+  main.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\StateMachine.h(7,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'main.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'main.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'main.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
   Manager.cpp
+  Pawn.cpp
+  PlayerEX.cpp
+  Scene.cpp
+  SceneManager.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\StateMachine.h(7,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'SceneManager.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'SceneManager.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  (compiler le fichier source 'SceneManager.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
   Génération de code en cours...
-  LINK : C:\Users\yducrocq\Documents\GitHub\LostnFound\x64\Debug\AstraLevelEditor.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\GUI_button.cpp(43): warning C4715: 'GUI_button::clicked' : les chemins de contrôle ne retournent pas tous une valeur
+  Compilation en cours...
+  StateMachine.cpp
+  Trigger.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\StateMachine.h(7,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'Trigger.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  (compiler le fichier source 'Trigger.cpp')
+      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
+      voir la déclaration de 'Pawn'
+  
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.cpp(21,20): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  TXanimated.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\TXanimated.cpp(27,17): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\TXanimated.cpp(38,49): warning C4244: '=' : conversion de 'int32_t' en 'float', perte possible de données
+  Génération de code en cours...
   AstraLevelEditor.vcxproj -> C:\Users\yducrocq\Documents\GitHub\LostnFound\x64\Debug\AstraLevelEditor.exe
