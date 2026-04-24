@@ -7,7 +7,10 @@
 #include "PlayerEX.h"
 #include "Trigger.h"
 #include "BG_parralax_Full.h"
+
 #include "Colis.h"
+#include "Fiche.h"
+#include "Manager.h"
 
 #include "DebugDisplay.h"
 
@@ -25,7 +28,10 @@ public:
 
 public:
 
+	Manager* manage;
+	Fiche* test;
 	DebugDisplay* fps;
+
 	StateMachine* Machine;
 	Trigger* trig;
 	LevelLoader* loader;
