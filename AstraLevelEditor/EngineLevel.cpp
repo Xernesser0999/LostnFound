@@ -7,7 +7,7 @@ EngineLevel::EngineLevel(sf::RenderWindow& window, Global& var_)
 
     fps = new DebugDisplay();
 
-    listeColis.push_back(new Colis(1300.f, 900.f, 500.f, 500.f));
+    listeColis.push_back(new Colis(1920/2-250, 1080/2-250, 500.f, 500.f));
 
     manage = new Manager();
     test = new Fiche();
@@ -33,7 +33,7 @@ void EngineLevel::update(const bool* keys, float dt) {
 
     if (isPressed && !wasMousePressed) {
         sf::Vector2i mousePos = sf::Mouse::getPosition(windowRef);
-        sf::Vector2f worldPos = windowRef.mapPixelToCoords(mousePos, *cam->view);
+        sf::Vector2f worldPos = windowRef.mapPixelToCoords(mousePos);
 
         for (auto* colis : listeColis) {
             if (colis->rectangle.getGlobalBounds().contains(worldPos)) {
