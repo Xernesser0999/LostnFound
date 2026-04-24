@@ -6,11 +6,13 @@ C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Collider.cpp;C:\U
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\DebugDisplay.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\DebugDisplay.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\DisplayEntity.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\DisplayEntity.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\EngineLevel.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\EngineLevel.obj
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Fiche.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\Fiche.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\Global.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\GUI_button.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\GUI_button.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\KeyStruct.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\KeyStruct.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\LevelLoader.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\LevelLoader.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\main.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\main.obj
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Manager.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\Manager.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\Pawn.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\PlayerEX.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\PlayerEX.obj
 C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Scene.cpp;C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\x64\Debug\Scene.obj

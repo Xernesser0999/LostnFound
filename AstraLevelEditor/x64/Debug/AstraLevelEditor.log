@@ -1,13 +1,6 @@
-﻿  EngineLevel.cpp
-C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
-  (compiler le fichier source 'EngineLevel.cpp')
-      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Pawn.h(11,8):
-      voir la déclaration de 'Pawn'
-  
-C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Global.h(11,7): warning C4099: 'Pawn' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
-  (compiler le fichier source 'EngineLevel.cpp')
-      C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Trigger.h(6,7):
-      voir la déclaration de 'Pawn'
-  
-C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\EngineLevel.cpp(18,48): warning C4305: 'argument' : troncation de 'double' à 'float'
+﻿  Fiche.cpp
+C:\Users\yducrocq\Documents\GitHub\LostnFound\AstraLevelEditor\Fiche.cpp(12,19): warning C4834: abandon de la valeur de retour de la fonction avec l’attribut [[nodiscard]]
+  Manager.cpp
+  Génération de code en cours...
+  LINK : C:\Users\yducrocq\Documents\GitHub\LostnFound\x64\Debug\AstraLevelEditor.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
   AstraLevelEditor.vcxproj -> C:\Users\yducrocq\Documents\GitHub\LostnFound\x64\Debug\AstraLevelEditor.exe
