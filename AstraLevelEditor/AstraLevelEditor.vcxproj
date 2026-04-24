@@ -142,6 +142,7 @@
     <ClCompile Include="BGstatic.cpp" />
     <ClCompile Include="BG_parralax_Full.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Colis.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="DebugDisplay.cpp" />
     <ClCompile Include="DisplayEntity.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="BGstatic.h" />
     <ClInclude Include="BG_parralax_Full.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Colis.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="DebugDisplay.h" />
     <ClInclude Include="DisplayEntity.h" />
