@@ -53,7 +53,7 @@ void Fiche::GetInformation(Manager& manage) {
 	name->setString(DisplayedName);
 	ContenuName->setString(DisplayedContenu);
 
-	TXTdate->setString("");
+	TXTdate->setString("Date de reception: " + std::to_string(manage.jour) +"/"+ std::to_string(manage.mois));
 }
 
 void Fiche::Update(float dt) {

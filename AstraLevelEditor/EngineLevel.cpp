@@ -13,6 +13,9 @@ EngineLevel::EngineLevel(sf::RenderWindow& window, Global& var_)
     test = new Fiche();
 
     test->GetInformation(*manage);
+
+    liste = new Liste();
+    liste->GetInfo(*manage);
 }
 
 EngineLevel::~EngineLevel() {
@@ -22,6 +25,9 @@ EngineLevel::~EngineLevel() {
 
     delete fps;
     fps = nullptr;
+
+    delete liste;
+    liste = nullptr;
 
     for (auto* c : listeColis) { delete c; }
     listeColis.clear();
@@ -47,12 +53,12 @@ void EngineLevel::update(const bool* keys, float dt) {
 
 void EngineLevel::displayScene(sf::RenderWindow& window) {
     fps->render(window);
-    for (auto* colis : listeColis) 
+    for (auto* colis : listeColis)
     {
         colis->draw(window);
     }
     test->Render(window);
-
+    liste->render(window);
 }
 
 void EngineLevel::nextScene(SceneState& currentScene, keys* _myKeys, sf::RenderWindow& window) {

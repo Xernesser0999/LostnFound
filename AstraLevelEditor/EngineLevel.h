@@ -11,6 +11,7 @@
 #include "Colis.h"
 #include "Fiche.h"
 #include "Manager.h"
+#include "Liste.h"
 
 #include "DebugDisplay.h"
 
@@ -40,6 +41,7 @@ public:
 	std::vector<Collider*> Colliderlist;
 	BG_parralax_Full* parralax;
 	std::vector<Colis*> listeColis;
+	Liste* liste;
 
 	bool wasMousePressed = false;
 
