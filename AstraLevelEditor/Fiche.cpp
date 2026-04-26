@@ -2,7 +2,7 @@
 #include "Manager.h"
 
 Fiche::Fiche() {
-	pos = { 100, 100 };
+	pos = { 300, 100 };
 	size = {210*2, 300*2};
 
 	rect.setPosition(pos);

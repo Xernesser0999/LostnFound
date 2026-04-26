@@ -15,9 +15,11 @@ public:
 
 	sf::RectangleShape rectangle;
 
+	int ID;
+
 public:
 
-	GUI_button(float posX_, float posY_, float sizeX, float sizeY, std::string file, std::string hover);
+	GUI_button(float posX_, float posY_, float sizeX, float sizeY, std::string file, std::string hover, int ID_);
 	~GUI_button();
 
 	void render(sf::RenderWindow& window);

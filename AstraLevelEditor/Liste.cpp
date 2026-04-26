@@ -2,7 +2,7 @@
 #include "Manager.h"
 
 Liste::Liste() {
-	Pos = { 1920 - 500, 100 };
+	Pos = { 1920 - 700, 100 };
 	Size = { 210 * 2, 300 * 2 };
 
 	rect.setPosition(Pos);

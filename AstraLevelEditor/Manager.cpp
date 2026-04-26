@@ -21,7 +21,7 @@ Manager::Manager() {
 	}
 
 	jour = random(1, 31);
-	mois = random(1, 11);
+	mois = random(2, 12);
 
 	SendId = random(1, 8);
 	if (SendId == DnameID) {

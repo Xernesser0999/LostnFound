@@ -1,6 +1,6 @@
 #include "GUI_button.h"
 
-GUI_button::GUI_button(float posX_, float posY_, float sizeX, float sizeY, std::string file, std::string hover) {
+GUI_button::GUI_button(float posX_, float posY_, float sizeX, float sizeY, std::string file, std::string hover, int ID_) {
 	pos = { posX_, posY_ };
 	size = { sizeX, sizeY };
 
@@ -10,6 +10,8 @@ GUI_button::GUI_button(float posX_, float posY_, float sizeX, float sizeY, std::
 	rectangle.setSize(size);
 	rectangle.setPosition(pos);
 	rectangle.setTexture(&TX);
+
+	ID = ID_;
 }
 
 bool GUI_button::hovered(sf::RenderWindow& window) {

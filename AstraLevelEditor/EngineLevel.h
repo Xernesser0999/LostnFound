@@ -13,6 +13,8 @@
 #include "Manager.h"
 #include "Liste.h"
 
+#include "GUI_Button.h"
+
 #include "DebugDisplay.h"
 
 class Global;
@@ -43,7 +45,21 @@ public:
 	std::vector<Colis*> listeColis;
 	Liste* liste;
 
+	sf::RectangleShape Win;
+	sf::Texture WinTX;
+
+	GUI_button* Alex;
+	GUI_button* Chloe;
+	GUI_button* Etienne;
+	GUI_button* Jaouen;
+	GUI_button* Line;
+	GUI_button* Maiwen;
+	GUI_button* Vincent;
+	GUI_button* Youssef;
+
 	bool wasMousePressed = false;
+	bool isWin = false;
+	bool isGO = false;
 
 	Global& glob;
 
