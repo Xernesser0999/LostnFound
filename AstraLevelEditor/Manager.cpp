@@ -14,14 +14,14 @@ Manager::Manager() {
 
 	switch (random(1, 5)) {
 	case 1: Contenu = "Contenu : Switch"; CiD = 1; break;
-	case 2: Contenu = "Contenu : Casque";  CiD = 2; break;
+	case 2: Contenu = "Contenu : Casque"; CiD = 2; break;
 	case 3: Contenu = "Contenu : Peluche metamorph"; CiD = 3; break;
-	case 4: Contenu = "Contenu : PC";    CiD = 4; break;
-	case 5: Contenu = "Contenu : Vide?";    CiD = 5; break;
+	case 4: Contenu = "Contenu : PC"; CiD = 4; break;
+	case 5: Contenu = "Contenu : Vide?"; CiD = 5; break;
 	}
 
 	jour = random(1, 31);
-	mois = random(1, 11);
+	mois = random(2, 12);
 
 	SendId = random(1, 8);
 	if (SendId == DnameID) {

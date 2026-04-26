@@ -152,6 +152,7 @@
     <ClCompile Include="GUI_button.cpp" />
     <ClCompile Include="KeyStruct.cpp" />
     <ClCompile Include="LevelLoader.cpp" />
+    <ClCompile Include="Liste.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Pawn.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="GUI_button.h" />
     <ClInclude Include="KeyStruct.h" />
     <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="Liste.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Pawn.h" />
     <ClInclude Include="PlayerEX.h" />
